@@ -4,3 +4,5 @@ design android login and registration screen design (note that it just designing
 
 
 ![Login Screen](https://github.com/MostafaAnter/Login_Registeration/blob/master/loginScreen.png)
+
+![Registeration Screen](https://github.com/MostafaAnter/Login_Registeration/blob/master/registerScreen.png)
