@@ -82,6 +82,7 @@
                 android:layout_marginBottom="5dip"
                 android:singleLine="true"
                 android:hint=" E-mail address"
+                android:background="@drawable/editstyle"
                 android:textColorHighlight="#95a5a6"
                  />
             <!--  Password Label -->
@@ -91,6 +92,7 @@
                 android:layout_height="45dp"
                 android:layout_marginTop="5dip"
                 android:singleLine="true"
+                android:background="@drawable/editstyle"
                 android:password="true"
                 android:hint=" Password"/>
             <!-- Login button -->
