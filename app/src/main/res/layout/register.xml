@@ -6,44 +6,25 @@
     android:fillViewport="true">
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" android:background="#3498db">
-
-        <!--  Header  Starts-->
-        <!--<LinearLayout android:id="@+id/header"-->
-            <!--android:layout_width="fill_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:background="@drawable/header_gradient"-->
-            <!--android:paddingTop="5dip"-->
-            <!--android:paddingBottom="5dip">-->
-            <!--&lt;!&ndash; Logo Start&ndash;&gt;-->
-            <!--<TextView android:text="Registeration"-->
-                <!--android:textColor="@color/abc_background_cache_hint_selector_material_light"-->
-                <!--android:textStyle="bold|italic"-->
-                <!--android:textSize="40sp"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="10dip"/>-->
-            <!--&lt;!&ndash; Logo Ends &ndash;&gt;-->
-        <!--</LinearLayout>-->
-        <!--  Header Ends -->
-        <!-- Footer Start -->
-        <LinearLayout android:id="@+id/footer"
+        android:layout_height="fill_parent" android:background="#333333">
+        <ImageView
             android:layout_width="fill_parent"
-            android:layout_height="90dip"
-            android:background="@drawable/footer_repeat"
-            android:orientation="vertical"
-            android:layout_alignParentBottom="true">
-        </LinearLayout>
-        <!-- Footer Ends -->
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/logo1"
+            android:scaleType="fitCenter"/>
 
-        <!-- Registration Form -->
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="vertical"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:padding="10dip"
-            android:layout_below="@id/header">
+            android:background="@drawable/editstyle"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
             <!-- Full Name Label -->
             <EditText android:id="@+id/reg_fullname"
                 android:layout_width="fill_parent"
